@@ -1,4 +1,4 @@
-<div class="bg-dark ">
+<div class="bg-dark">
     <footer>
         <div class="container">
             <div class="d-flex flex-row">

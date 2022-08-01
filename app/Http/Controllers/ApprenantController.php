@@ -24,6 +24,10 @@ class ApprenantController extends Controller
     }
 
 
+    public function renseignement()
+    {
+        return view('pages.renseignement');
+    }
     /**
      * return le formulaire de creation d'un apprenant
      */

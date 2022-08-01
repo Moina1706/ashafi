@@ -1,13 +1,9 @@
 @extends('layouts.home')
 @section('content')
     <div style="background-color: #EFF3C2; width:100%;" class="d-flex flex-row">
-        <div class="">{{-- ici les image --}}
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="ps-5 pt-5 ">{{-- ici les image --}}
+            <img src="/img/accueil_img.png" style="width:100%; height:100%"; alt="">
+
         </div>
         <div class="">{{-- ici le texte --}}
             <h1> ASSOCIATION IMAM SHAFI</h1>

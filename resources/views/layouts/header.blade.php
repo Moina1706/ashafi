@@ -1,32 +1,7 @@
-<nav class="navbar navbar-expand-lg justify-content-between navbar-light bg-light"
+<nav class="navbar navbar-expand-lg justify-content-between navbar-light bg-light fixed-top mb-5"
     style="background-color: #5C3E3E !important">
     <div class="container-fluid">
-        <!-- <a class="navbar-brand  text-white" href="#">Imam Shafi</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('liste') }}">Liste Apprenant</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled text-white">Disabled</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-                Navbar text with an inline element
-            </span>
-        </div>
 
-    -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +31,8 @@
                         href="{{ route('login') }}">connexion</a></button>
 
                 <button class="btn btn-light my-2 my-sm-0" type="submit"><a class="text-dark"
-                        style="text-decoration:none;" href="#">Nous joindre</a></button>
+                        style="text-decoration:none;" href="{{ route('renseignement') }}">Nous
+                        joindre</a></button>
             </form>
         </div>
     </div>

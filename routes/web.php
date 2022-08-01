@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApprenantController;
 /*
@@ -13,6 +14,7 @@ use App\Http\Controllers\ApprenantController;
 |
 */
 
+Route::get('/apprenant/renseignement', [ApprenantController::class, 'renseignement'])->name('renseignement');
 Route::controller(ApprenantController::class)->group(function () {
 
     Route::get('/', 'accueil')->name('accueil');
